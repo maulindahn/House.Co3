@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RENTAL AGREEMENT"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By taking the items out of the box, you are agreeing to the following terms:"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:textAlignment="inherit" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:text="Rented merchandise must be postmarked/returned to us on or before the date showing on email receipt, you can return the package to the following address:"
+        android:textAlignment="inherit" />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:textSize="10dp"
+        android:layout_height="wrap_content"
+        android:text="House.co
+Rental Department
+Jl. Kalisari No.1
+Jakarta Timur, 13790"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:text= "1"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:text= "Shipping to and from the charge will be included in the initial cost of the order."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:text= "2"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:text= "There will be a return label included in your package — using this label is the best way to ensure quick and efficient attention to your order upon arrival at our building."/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:text= "3"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"
+            android:text= "Overtime fees are equal to 10% of the total rental price per day and will be charged for rental items"/>
+    </LinearLayout>
+    <!--" 1. Shipping to and from the charge will be included in the initial cost of the order.
+    2. There will be a return label included in your package — using this label is the best way to ensure quick and efficient attention to your order upon arrival at our building.
+    3.  postmarked (or returned in person) after the stated postmark/return date.
+    4. Reasonable wear to the rental items is to be expected and accepted. All items must be shipped back dry. If packaged wet they will become moldy and you the customer will be charged the purchase price.
+    5, If items are returned before the event date you are eligible for a refund less a $25 restocking fee. Eligibility for a refund will be determined upon the costume’s arrival and inspection.
+    6. If you wish to exchange your rental you can do so by placing a new order and following our returns process for the original order. In order to be eligible for a refund of the first order (less a $25 restocking fee) you must have the original order postmarked to us before your event date. If a package is post marked on or after the event date you will not be eligible for a refund."
+                android:textAlignment="inherit" -->
+</LinearLayout>
+</ScrollView>

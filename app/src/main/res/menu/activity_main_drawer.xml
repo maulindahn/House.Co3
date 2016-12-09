@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_visibility_black_18dp"
+            android:title="Explore" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_add_a_photo_black_18dp"
+            android:title="Rent" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/ic_notifications_none_black_18dp"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/rentedcostumes"
+            android:icon="@drawable/ic_local_offer_black_18dp"
+            android:title="Rented Costumes" />
+
+        <item
+            android:id="@+id/usedcostumes"
+            android:icon="@drawable/ic_shopping_basket_black_18dp"
+            android:title="Used Costumes" />
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/ic_star_black_18dp"
+            android:title="Favorite Costumes" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuhelp"
+            android:icon="@drawable/ic_help_black_18dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_black_18dp"
+            android:title="Setings" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_person_black_18dp"
+            android:title="Sign Out" />
+    </group>
+
+    <group android:checkableBehavior="single"></group>
+</menu>

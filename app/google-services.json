@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "937793141201",
+    "firebase_url": "https://practiceadapter-master.firebaseio.com",
+    "project_id": "practiceadapter-master",
+    "storage_bucket": "practiceadapter-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937793141201:android:82a918576d55acc3",
+        "android_client_info": {
+          "package_name": "com.example.pustikom.adapterplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937793141201-41ttu4r8afr6l8e39ahfoeafjjf6bpof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAicbqJg7dNSvqyeujT0AUFvxRJ6K6foq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937793141201:android:df700aaf96c420dd",
+        "android_client_info": {
+          "package_name": "com.example.hana.rentcostumes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937793141201-41ttu4r8afr6l8e39ahfoeafjjf6bpof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAicbqJg7dNSvqyeujT0AUFvxRJ6K6foq4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
