@@ -42,7 +42,7 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="Helo.co"
+            android:label="House.co"
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".LoginActivity">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
