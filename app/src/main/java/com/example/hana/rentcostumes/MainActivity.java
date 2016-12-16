@@ -16,11 +16,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.hana.rentcostumes.fragment.ExploreFragment;
+import com.example.hana.rentcostumes.fragment.FavoriteCostumeFragment;
+import com.example.hana.rentcostumes.fragment.HelpFragment;
+import com.example.hana.rentcostumes.fragment.NotificationsFragment;
 import com.example.hana.rentcostumes.fragment.RentFragment;
+import com.example.hana.rentcostumes.fragment.RentedCostumeFragment;
+import com.example.hana.rentcostumes.fragment.SettingFragment;
 import com.example.hana.rentcostumes.fragment.UsedCostumeFragment;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, ExploreFragment.OnFragmentInteractionListener, RentFragment.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+        ExploreFragment.OnFragmentInteractionListener, RentFragment.OnFragmentInteractionListener, UsedCostumeFragment.OnFragmentInteractionListener,
+        FavoriteCostumeFragment.OnFragmentInteractionListener, NotificationsFragment.OnFragmentInteractionListener, RentedCostumeFragment.OnFragmentInteractionListener,
+        HelpFragment.OnFragmentInteractionListener, SettingFragment.OnFragmentInteractionListener {
     SessionActivity sessionActivity;
 
     @Override
@@ -107,17 +115,17 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             fragmentClass = RentFragment.class;
         } else if (id == R.id.notification) {
-
+            fragmentClass = NotificationsFragment.class;
         } else if (id == R.id.rentedcostumes) {
-
+            fragmentClass = RentedCostumeFragment.class;
         } else if (id == R.id.usedcostumes) {
             fragmentClass = UsedCostumeFragment.class;
         } else if (id == R.id.favorite) {
-
+            fragmentClass = FavoriteCostumeFragment.class;
         } else if (id == R.id.menuhelp) {
-
+            fragmentClass = HelpFragment.class;
         } else if (id == R.id.setting) {
-
+            fragmentClass = SettingFragment.class;
         } else if (id == R.id.signout){
             final ProgressDialog progressDialog = new ProgressDialog(this);
             progressDialog.setIndeterminate(true);
