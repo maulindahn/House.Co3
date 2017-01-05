@@ -1,128 +1,21 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:elevation="@dimen/default_elevation"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+<ImageView
+    android:id="@+id/ivLogo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.ExploreFragment">
+    android:layout_gravity="center"
+    android:scaleType="center"
+    android:src="@drawable/img_toolbar_logo" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:layout_gravity="center"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="10dp">
-
-                <TextView
-                    android:id="@+id/feed"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textAlignment="center"
-                    android:text="FEED"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_gravity="center"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="10dp">
-                <TextView
-                    android:id="@+id/featured"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textAlignment="center"
-                    android:textStyle="bold"
-                    android:text="FEATURED"/>
-
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-            <ImageView
-                android:id="@+id/iGrid1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid1"/>
-
-            <ImageView
-                android:id="@+id/iGrid2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid2"/>
-
-            <ImageView
-                android:id="@+id/iGrid3"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid3"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-            <ImageView
-                android:id="@+id/iGrid4"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid4"/>
-            <ImageView
-                android:id="@+id/iGrid5"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid5"/>
-            <ImageView
-                android:id="@+id/iGrid6"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid6"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal">
-            <ImageView
-                android:id="@+id/iGrid7"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid7" />
-            <ImageView
-                android:id="@+id/iGrid8"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid8"/>
-            <ImageView
-                android:id="@+id/iGrid9"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/grid9"/>
-        </LinearLayout>
-
-    </LinearLayout>
-
-</FrameLayout>
+</android.support.v7.widget.Toolbar>

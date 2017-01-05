@@ -46,6 +46,37 @@
 
     <string name="checkout">Checkout</string>
 
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string-array name="user_photos">
+        <item>@drawable/grid1</item>
+        <item>@drawable/grid2</item>
+        <item>@drawable/grid3</item>
+        <item>@drawable/grid4</item>
+        <item>@drawable/grid5</item>
+        <item>@drawable/grid6</item>
+        <item>@drawable/grid7</item>
+        <item>@drawable/grid8</item>
+        <item>@drawable/grid9</item>
+        <item>@drawable/grid10</item>
+        <item>@drawable/grid11</item>
+        <item>@drawable/grid12</item>
+        <item>@drawable/grid13</item>
+        <item>@drawable/grid14</item>
+        <item>@drawable/grid15</item>
+        <item>@drawable/grid16</item>
+        <item>@drawable/grid17</item>
+        <item>@drawable/grid18</item>
+        <item>@drawable/grid19</item>
+        <item>@drawable/grid20</item>
+        <item>@drawable/grid21</item>
+        <item>@drawable/grid22</item>
+    </string-array>
+      <string name="user_profile_photo">http://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-19/929118_455075441302693_1605108410_a.jpg</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
