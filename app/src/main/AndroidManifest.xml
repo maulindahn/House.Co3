@@ -64,6 +64,14 @@
             </meta-data>>
         </activity>
 
+        <activity android:name=".activity.FragmentController"
+            android:label="Details"
+            android:parentActivityName=".activity.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.FragmentController">
+            </meta-data>>
+        </activity>
+
         <activity android:name=".view.CostumeDetails"
             android:label="Details"
             android:parentActivityName=".activity.MainActivity">

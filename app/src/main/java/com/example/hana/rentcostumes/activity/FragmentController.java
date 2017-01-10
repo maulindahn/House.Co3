@@ -45,20 +45,20 @@ public class FragmentController extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if (savedInstanceState != null) {
-            Fragment fragment = null;
-            Class fragmentClass = null;
-            fragmentClass = ExploreFragment.class;
-            try {
-                fragment = (Fragment)fragmentClass.newInstance();
-            } catch (Exception e){
-                e.printStackTrace();
-            }
+        //if (savedInstanceState != null) {
+        //    Fragment fragment = null;
+        //    Class fragmentClass = null;
+        //    fragmentClass = ExploreFragment.class;
+        //    try {
+        //        fragment = (Fragment)fragmentClass.newInstance();
+        //    } catch (Exception e){
+        //        e.printStackTrace();
+        //    }
 
 
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.flContentRoot, fragment).commit();
-        }
+        //    FragmentManager fragmentManager = getSupportFragmentManager();
+        //    fragmentManager.beginTransaction().replace(R.id.flContentRoot, fragment).commit();
+        //}
 
         sessionActivity = new SessionActivity();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawerLayout);
